@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  
+  
+spring: 
+  mail:
+    username: your_email@gmail.com
+    host: smtp.gmail.com
+    port: 587
+    password: xxxx xxxx xxxx xxxx   # make sure to add you app-password here in the same manner
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          auth: true
+          starttls:
+             required: true
+             enabled: true
+        debug: true

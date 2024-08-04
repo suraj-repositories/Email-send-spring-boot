@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/172040721?v=4">
+	<title>Send Email</title>
+</head>
+
+<body>
+	<form th:action="@{/}" method="post">
+		<label for="email">Email</label>
+		<input type="email" placeholder="Enter email" name="email">
+
+		<button type="submit">Send welcome email</button>
+	</form>
+
+	<div th:if="${success}">
+		<hr>
+		<p th:text="${success}"></p>
+	</div>
+	<div th:if="${error}">
+		<hr>
+		<p th:text="${error}"></p>
+	</div>
+
+</body>
+
+</html>
