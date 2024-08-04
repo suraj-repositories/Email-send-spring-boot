@@ -220,10 +220,13 @@
 - /Email-send-spring-boot/src/main/resources/templates/email_html.html
 - /Email-send-spring-boot/src/main/resources/templates/send-form.html
 
-
-**** static files
+=============== static files ==================
 - /Email-send-spring-boot/src/main/resources/static/attachment1.txt
 - /Email-send-spring-boot/src/main/resources/static/attachment2.pdf
 - /Email-send-spring-boot/src/main/resources/static/Logo.png
 
 
+<br />
+<br />
+<p align="center">⭐️ Star my repositories if you find it helpful.</p>
+<br />
